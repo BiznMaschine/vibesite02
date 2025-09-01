@@ -2,13 +2,79 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Audits - Professionelle IT-Prüfung & Beratung</title>
-    <meta name="description" content="Professionelle Software-Audits für Ihr Unternehmen. Sicherheit, Compliance und Optimierung Ihrer IT-Systeme durch erfahrene Experten.">
-    <meta name="keywords" content="Software Audit, IT-Prüfung, Compliance, Sicherheitsaudit, Code Review, Deutschland">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>KMU Software-Audits ab 2.000€ | NIS2 & GoBD Compliance | Kiarbeitskraft</title>
+    <meta name="description" content="Software-Audits für KMUs 10-50 Mitarbeiter. NIS2, GoBD, E-Rechnung compliant. Transparente Preise ab 2.000€. Kostenloses 60-Min Assessment. Fördergelder bis 16.500€.">
+    <meta name="keywords" content="KMU Software Audit, NIS2 Compliance, GoBD konform, E-Rechnung, Handwerk VOB, Kassensicherungsverordnung, DATEV Integration, Mittelstand Digitalisierung">
+    
+    <!-- Critical Resource Hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="styles/main.css" as="style">
+    
+    <!-- Optimized Font Loading -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'; this.onload=null;">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
+    
+    <!-- Critical CSS -->
     <link rel="stylesheet" href="styles/main.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    
+    <!-- Performance & SEO Optimization -->
+    <meta name="theme-color" content="#0066cc">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Kiarbeitskraft - KMU Software Audits">
+    <link rel="canonical" href="https://audit.kiarbeitskraft.de/">
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://audit.kiarbeitskraft.de/">
+    <meta property="og:title" content="KMU Software-Audits ab 2.000€ | NIS2 & GoBD Compliance">
+    <meta property="og:description" content="Software-Audits für KMUs 10-50 Mitarbeiter. NIS2, GoBD, E-Rechnung compliant. Transparente Preise ab 2.000€. Kostenloses 60-Min Assessment.">
+    <meta property="og:image" content="https://audit.kiarbeitskraft.de/assets/og-image.jpg">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://audit.kiarbeitskraft.de/">
+    <meta name="twitter:title" content="KMU Software-Audits ab 2.000€ | NIS2 & GoBD Compliance">
+    <meta name="twitter:description" content="Software-Audits für KMUs 10-50 Mitarbeiter. Transparente Preise ab 2.000€. Kostenloses 60-Min Assessment.">
+    <meta name="twitter:image" content="https://audit.kiarbeitskraft.de/assets/og-image.jpg">
+    
+    <!-- DNS Prefetch for External Resources -->
+    <link rel="dns-prefetch" href="//assets.calendly.com">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "Kiarbeitskraft Software Audits",
+        "description": "Professionelle Software-Audits für kleine und mittlere Unternehmen (KMU) mit 10-50 Mitarbeitern. Spezialisiert auf NIS2, GoBD und E-Rechnung Compliance.",
+        "url": "https://audit.kiarbeitskraft.de/",
+        "telephone": "+491754038577",
+        "email": "info@kiarbeitskraft.de",
+        "areaServed": "DE",
+        "serviceType": "Software Audit, IT Compliance, Cybersecurity Assessment",
+        "priceRange": "€2000-€10000",
+        "offers": [
+            {
+                "@type": "Offer",
+                "name": "Compliance Quick-Check",
+                "description": "NIS2, GoBD, E-Rechnung Compliance Prüfung",
+                "price": "2000",
+                "priceCurrency": "EUR"
+            },
+            {
+                "@type": "Offer", 
+                "name": "Kostenlose Erstberatung",
+                "description": "60-Minuten Assessment ohne Verpflichtung",
+                "price": "0",
+                "priceCurrency": "EUR"
+            }
+        ]
+    }
+    </script>
 </head>
 <body>
     <!-- Header -->
@@ -308,10 +374,9 @@
                     </div>
                 </div>
                 <div class="contact-form">
-                    <!-- Calendly Inline-Widget Beginn -->
+                    <!-- Calendly Inline-Widget (optimized loading) -->
                     <div class="calendly-inline-widget" data-url="https://calendly.com/kiarbeitskraft/recherche" style="min-width:320px;height:700px;"></div>
-                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-                    <!-- Calendly Inline-Widget Ende -->
+                    <!-- Script loads asynchronously via bottom script -->
                 </div>
             </div>
         </div>
@@ -349,6 +414,20 @@
         </div>
     </footer>
 
-    <script src="scripts/main.js"></script>
+    <!-- Optimized JavaScript Loading -->
+    <script src="scripts/main.js" defer></script>
+    
+    <!-- Calendly Script Optimization -->
+    <script>
+        // Load Calendly script asynchronously after page load
+        window.addEventListener('load', function() {
+            if (document.querySelector('.calendly-inline-widget')) {
+                const calendlyScript = document.createElement('script');
+                calendlyScript.src = 'https://assets.calendly.com/assets/external/widget.js';
+                calendlyScript.async = true;
+                document.head.appendChild(calendlyScript);
+            }
+        });
+    </script>
 </body>
 </html>

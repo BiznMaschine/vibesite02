@@ -373,16 +373,15 @@ window.addEventListener('error', function(e) {
     // In production, you might want to send errors to a logging service
 });
 
-// Service Worker Registration (for future PWA features)
+// Service Worker Registration for Performance Caching
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function() {
-        // Uncomment when you have a service worker file
-        // navigator.serviceWorker.register('/sw.js')
-        //     .then(function(registration) {
-        //         console.log('SW registered: ', registration);
-        //     })
-        //     .catch(function(registrationError) {
-        //         console.log('SW registration failed: ', registrationError);
-        //     });
+        navigator.serviceWorker.register('/sw.js')
+            .then(function(registration) {
+                console.log('SW registered successfully:', registration.scope);
+            })
+            .catch(function(registrationError) {
+                console.log('SW registration failed:', registrationError);
+            });
     });
 }

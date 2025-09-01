@@ -1,5 +1,31 @@
 /* Software Audit Website Styles */
 
+/* Performance Optimizations */
+.lazy-load {
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.lazy-load.loaded {
+    opacity: 1;
+}
+
+/* Content Visibility for Performance */
+.section-offscreen {
+    content-visibility: auto;
+    contain-intrinsic-size: 500px;
+}
+
+/* Reduce Motion for Accessibility */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
 /* Reset & Variables */
 :root {
     --primary-color: #0066cc;
