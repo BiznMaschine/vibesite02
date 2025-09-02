@@ -66,6 +66,10 @@ p {
     color: var(--primary-color);
 }
 
+.highlight-white {
+    color: white;
+}
+
 /* Buttons */
 .btn {
     display: inline-block;
@@ -383,29 +387,30 @@ section {
 }
 
 .solution {
-    background: linear-gradient(135deg, var(--success-color) 0%, #4caf50 100%);
-    color: white;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    color: var(--dark-color);
     padding: 2rem;
     border-radius: var(--border-radius);
     text-align: center;
     margin-top: 3rem;
+    border: 1px solid #dee2e6;
 }
 
 .solution h3 {
-    color: white;
+    color: var(--dark-color);
     margin-bottom: 1rem;
 }
 
 .solution p {
     margin: 0 0 1rem 0;
     font-size: 1.1rem;
-    color: white;
+    color: var(--dark-color);
 }
 
 .solution p:last-child {
     margin: 0;
     font-size: 1.2rem;
-    color: white;
+    color: var(--dark-color);
 }
 
 /* Benefits Section */
