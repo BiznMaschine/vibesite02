@@ -703,34 +703,50 @@ section {
 }
 
 .consultation-benefits {
+    display: grid;
+    gap: 1.5rem;
     margin: 2rem 0;
 }
 
 .consultation-benefit {
-    display: flex;
-    align-items: flex-start;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-    padding: 1.5rem;
     background: white;
-    border-radius: var(--border-radius);
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    border-left: 4px solid var(--primary-color);
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.consultation-benefit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
 
 .benefit-icon {
-    font-size: 1.5rem;
-    flex-shrink: 0;
-}
-
-.benefit-content {
-    flex: 1;
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    font-size: 18px;
 }
 
 .benefit-content strong {
-    color: var(--primary-color);
+    color: #007bff;
+    margin: 0 0 0.75rem 0;
+    font-size: 1.1rem;
+    font-weight: 600;
     display: block;
-    margin-bottom: 0.25rem;
+}
+
+.benefit-content p {
+    margin: 0;
+    color: #6c757d;
+    line-height: 1.6;
 }
 
 .testimonials {
