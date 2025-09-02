@@ -317,6 +317,7 @@ strong {
     font-weight: 700;
     margin-bottom: 1.5rem;
     line-height: 1.2;
+    color: white;
 }
 
 .hero-subtitle {
@@ -752,7 +753,7 @@ section {
 
 .confidentiality-promise {
     background-color: var(--primary-color);
-    color: white;
+    color: white !important;
     padding: 1.5rem;
     border-radius: var(--border-radius);
     font-weight: 600;
@@ -1111,8 +1112,8 @@ section {
 }
 
 .consultation-guarantee {
-    background: var(--success-color);
-    color: white;
+    background: var(--gray-light);
+    color: var(--dark-color);
     padding: 1.5rem;
     border-radius: var(--border-radius);
     margin-top: 2rem;
