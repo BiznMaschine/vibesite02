@@ -418,6 +418,113 @@ section {
     font-weight: 500;
 }
 
+/* Confidentiality Section */
+.confidentiality {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #f8f9ff 0%, #e8f4fd 100%);
+}
+
+.confidentiality-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+
+.security-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.security-item {
+    display: flex;
+    gap: 1rem;
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.security-icon {
+    font-size: 2rem;
+    min-width: 2rem;
+}
+
+.security-details h4 {
+    margin-bottom: 0.5rem;
+    color: var(--dark-color);
+}
+
+.security-details p {
+    color: var(--gray-medium);
+    margin: 0;
+    line-height: 1.5;
+}
+
+.nda-emphasis {
+    margin-top: 2rem;
+}
+
+.nda-box {
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    color: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.nda-box h4 {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.nda-box p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.confidentiality-checklist {
+    background: white;
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+.confidentiality-checklist h3 {
+    margin-bottom: 1.5rem;
+    color: var(--dark-color);
+}
+
+.protection-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.protection-list li {
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: var(--gray-dark);
+    font-weight: 500;
+}
+
+.protection-list li:last-child {
+    border-bottom: none;
+}
+
+@media (max-width: 768px) {
+    .confidentiality-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .security-features {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Industry Challenges Section */
 .industry-challenges {
     padding: 80px 0;
