@@ -703,16 +703,20 @@ section {
 }
 
 .consultation-benefits {
-    display: grid;
-    gap: 1.5rem;
     margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .consultation-benefit {
-    background: white;
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.5rem;
+    background: #ffffff;
     border: 1px solid #e9ecef;
     border-radius: 12px;
-    padding: 2rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.06);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
@@ -723,30 +727,39 @@ section {
 }
 
 .benefit-icon {
-    background: linear-gradient(135deg, #28a745, #20c997);
-    color: white;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 1rem;
-    font-size: 18px;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
 }
 
-.benefit-content strong {
-    color: #007bff;
-    margin: 0 0 0.75rem 0;
+.benefit-content h4 {
+    margin: 0 0 0.5rem 0;
+    color: #2c5aa0;
     font-size: 1.1rem;
     font-weight: 600;
-    display: block;
+    line-height: 1.3;
 }
 
 .benefit-content p {
     margin: 0;
     color: #6c757d;
-    line-height: 1.6;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .consultation-benefit {
+        padding: 1rem;
+        gap: 0.75rem;
+    }
+    
+    .benefit-content h4 {
+        font-size: 1rem;
+    }
+    
+    .benefit-content p {
+        font-size: 0.9rem;
+    }
 }
 
 .testimonials {
