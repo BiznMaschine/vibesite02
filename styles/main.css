@@ -391,14 +391,21 @@ section {
     margin-top: 3rem;
 }
 
+.solution h3 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
 .solution p {
     margin: 0 0 1rem 0;
     font-size: 1.1rem;
+    color: white;
 }
 
 .solution p:last-child {
     margin: 0;
     font-size: 1.2rem;
+    color: white;
 }
 
 /* Benefits Section */
@@ -564,7 +571,7 @@ section {
 
 .nda-box {
     background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
-    color: white;
+    color: white !important;
     padding: 2rem;
     border-radius: var(--border-radius);
     box-shadow: var(--shadow);
@@ -572,12 +579,17 @@ section {
 
 .nda-box h4 {
     margin-bottom: 1rem;
-    color: white;
+    color: white !important;
 }
 
 .nda-box p {
     margin: 0;
     line-height: 1.6;
+    color: white !important;
+}
+
+.nda-box p strong {
+    color: white !important;
 }
 
 .confidentiality-checklist {
