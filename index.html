@@ -492,26 +492,11 @@
                 </div>
             </div>
             <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">📧</div>
-                        <div class="contact-details">
-                            <h3>E-Mail</h3>
-                            <a href="mailto:info@kiarbeitskraft.de">info@kiarbeitskraft.de</a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <div class="contact-icon">📞</div>
-                        <div class="contact-details">
-                            <h3>Telefon</h3>
-                            <a href="tel:+491754038577">+49 175 403 8577</a>
-                        </div>
-                    </div>
-                </div>
                 <div class="contact-form">
-                    <!-- Calendly Inline-Widget (optimized loading) -->
-                    <div class="calendly-inline-widget" data-url="https://calendly.com/kiarbeitskraft/recherche" style="min-width:320px;height:700px;"></div>
-                    <!-- Script loads asynchronously via bottom script -->
+                    <!-- Calendly Inline-Widget Beginn -->
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/kiarbeitskraft/softwareaudit?hide_gdpr_banner=1" style="min-width:320px;height:700px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                    <!-- Calendly Inline-Widget Ende -->
                 </div>
             </div>
         </div>
@@ -563,17 +548,5 @@
     <!-- Optimized JavaScript Loading -->
     <script src="scripts/main.js" defer></script>
     
-    <!-- Calendly Script Optimization -->
-    <script>
-        // Load Calendly script asynchronously after page load
-        window.addEventListener('load', function() {
-            if (document.querySelector('.calendly-inline-widget')) {
-                const calendlyScript = document.createElement('script');
-                calendlyScript.src = 'https://assets.calendly.com/assets/external/widget.js';
-                calendlyScript.async = true;
-                document.head.appendChild(calendlyScript);
-            }
-        });
-    </script>
 </body>
 </html>
