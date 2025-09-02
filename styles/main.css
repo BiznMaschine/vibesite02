@@ -424,6 +424,16 @@ section {
     background: linear-gradient(135deg, #f8f9ff 0%, #e8f4fd 100%);
 }
 
+.confidentiality-promise {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+    margin-top: 1rem;
+    box-shadow: var(--shadow);
+}
+
 .confidentiality-content {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -593,6 +603,81 @@ section {
 /* Contact Section */
 .contact {
     background-color: var(--gray-light);
+}
+
+.consultation-benefits {
+    margin: 2rem 0;
+}
+
+.consultation-benefit {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    background: white;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.benefit-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+}
+
+.benefit-content {
+    flex: 1;
+}
+
+.benefit-content strong {
+    color: var(--primary-color);
+    display: block;
+    margin-bottom: 0.25rem;
+}
+
+.testimonials {
+    margin: 2rem 0;
+}
+
+.testimonial {
+    background: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 1rem;
+}
+
+.testimonial blockquote {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.testimonial blockquote p {
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.testimonial cite {
+    color: var(--gray-600);
+    font-size: 0.9rem;
+    font-style: normal;
+}
+
+.consultation-guarantee {
+    background: var(--success-color);
+    color: white;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin-top: 2rem;
+}
+
+.consultation-guarantee p {
+    margin-bottom: 0.5rem;
+}
+
+.consultation-guarantee p:last-child {
+    margin-bottom: 0;
 }
 
 .contact-benefits {
