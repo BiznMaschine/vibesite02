@@ -45,21 +45,68 @@ body {
     padding: 0 20px;
 }
 
-/* Typography */
+/* Typography - Cluster-inspired hierarchy */
 h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: var(--dark-color);
+}
+
+/* Hero headlines - extra bold and large */
+h1 { 
+    font-size: 3.5rem; 
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 2rem;
+}
+
+/* Section headlines - prominent and clear */
+h2 { 
+    font-size: 2.75rem; 
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 1.5rem;
+}
+
+/* Subsection headlines */
+h3 { 
+    font-size: 2rem; 
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.25;
     margin-bottom: 1rem;
 }
 
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2.25rem; }
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.5rem; }
+/* Card headlines */
+h4 { 
+    font-size: 1.25rem; 
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.75rem;
+}
 
+/* Body text improvements */
 p {
-    margin-bottom: 1rem;
-    color: var(--gray-medium);
+    margin-bottom: 1.25rem;
+    color: var(--gray-600);
+    font-size: 1.125rem;
+    line-height: 1.7;
+    font-weight: 400;
+}
+
+/* Lead paragraphs for hero sections */
+.hero-subtitle, .section-header p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--gray-700);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+/* Strong emphasis styling */
+strong {
+    font-weight: 600;
+    color: var(--dark-color);
 }
 
 .highlight {
@@ -1027,6 +1074,39 @@ section {
 }
 
 @media (max-width: 768px) {
+    /* Responsive Typography */
+    h1 { 
+        font-size: 2.5rem; 
+        font-weight: 800;
+        line-height: 1.1;
+        margin-bottom: 1.5rem;
+    }
+    
+    h2 { 
+        font-size: 2rem; 
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 1.25rem;
+    }
+    
+    h3 { 
+        font-size: 1.5rem; 
+        font-weight: 600;
+        line-height: 1.3;
+        margin-bottom: 1rem;
+    }
+    
+    p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+    
+    .hero-subtitle, .section-header p {
+        font-size: 1.125rem;
+        line-height: 1.5;
+        margin-bottom: 1.5rem;
+    }
+
     .nav-menu {
         position: fixed;
         top: 100%;
