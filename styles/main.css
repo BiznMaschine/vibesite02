@@ -86,12 +86,12 @@ p {
 }
 
 .btn-primary {
-    background-color: var(--primary-color);
-    color: var(--white);
+    background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
+    color: white;
 }
 
 .btn-primary:hover {
-    background-color: var(--primary-dark);
+    background: linear-gradient(135deg, #e55a2b 0%, #e0851a 100%);
     transform: translateY(-2px);
     box-shadow: var(--shadow-hover);
 }
@@ -387,13 +387,10 @@ section {
 }
 
 .solution {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
     color: var(--dark-color);
     padding: 2rem;
-    border-radius: var(--border-radius);
     text-align: center;
     margin-top: 3rem;
-    border: 1px solid #dee2e6;
 }
 
 .solution h3 {
