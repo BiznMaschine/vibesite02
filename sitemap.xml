@@ -6,34 +6,18 @@
 
   <!-- Homepage -->
   <url>
-    <loc>https://biznmaschine.github.io/vibesite02/</loc>
-    <lastmod>2025-01-02</lastmod>
+    <loc>https://www.codekontrolle.de/</loc>
+    <lastmod>2025-01-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
-  <!-- Services Section -->
+  <!-- Software Audit Kosten Artikel -->
   <url>
-    <loc>https://biznmaschine.github.io/vibesite02/#services</loc>
-    <lastmod>2025-01-02</lastmod>
+    <loc>https://www.codekontrolle.de/software-audit-kosten-preise.html</loc>
+    <lastmod>2025-01-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-
-  <!-- About Section -->
-  <url>
-    <loc>https://biznmaschine.github.io/vibesite02/#about</loc>
-    <lastmod>2025-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <!-- Contact Section -->
-  <url>
-    <loc>https://biznmaschine.github.io/vibesite02/#contact</loc>
-    <lastmod>2025-01-02</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
   </url>
 
 </urlset>
