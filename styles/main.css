@@ -1537,6 +1537,7 @@ html {
     font-weight: 800;
     line-height: 1.1;
     margin-bottom: 1rem;
+    color: white;
 }
 
 .subtitle-accent {
@@ -1636,7 +1637,7 @@ html {
 }
 
 .content-section {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .content-section h2 {
@@ -1650,7 +1651,7 @@ html {
     font-size: 1.1rem;
     line-height: 1.7;
     color: #475569;
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.75rem;
 }
 
 .pricing-table {
