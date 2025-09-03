@@ -546,6 +546,295 @@
     
     <!-- Optimized JavaScript Loading -->
     <script src="scripts/main.js" defer></script>
+
+    <!-- ===================== JSON-LD: Organization (Primary Business Entity) ===================== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "CodeKontrolle",
+      "alternateName": "CodeKontrolle.de",
+      "url": "https://www.codekontrolle.de",
+      "logo": "https://www.codekontrolle.de/assets/img/logo-codekontrolle.png",
+      "description": "Unabhängige Software-Bewertung für Unternehmen, die keine teuren IT-Fehler machen wollen. Wir beenden Software-Chaos, prüfen bestehende Systeme und empfehlen klare Lösungswege - ohne IT-Kauderwelsch.",
+      "foundingDate": "2024",
+      "founders": [
+        {
+          "@type": "Person",
+          "name": "CodeKontrolle Team"
+        }
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+49 175 403 8577",
+          "email": "kontakt@codekontrolle.de",
+          "contactType": "customer service",
+          "availableLanguage": ["German", "English"],
+          "areaServed": "DE"
+        }
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DE",
+        "addressLocality": "Deutschland"
+      },
+      "sameAs": [
+        "https://www.codekontrolle.de"
+      ],
+      "knowsAbout": [
+        "Software Architecture Review",
+        "Code Quality Assessment",
+        "Technical Debt Analysis",
+        "IT System Evaluation",
+        "Software Audit",
+        "System Architecture Analysis"
+      ],
+      "serviceArea": {
+        "@type": "Country",
+        "name": "Germany"
+      }
+    }
+    </script>
+
+    <!-- ===================== JSON-LD: WebSite (Homepage) ===================== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "CodeKontrolle - Software-Architektur Reviews",
+      "alternateName": "CodeKontrolle.de",
+      "url": "https://www.codekontrolle.de",
+      "description": "Professionelle Software-Architektur Reviews für Unternehmen. Klare Antworten in 10 Tagen nach Bereitstellung aller erforderlichen Informationen.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "CodeKontrolle",
+        "url": "https://www.codekontrolle.de"
+      },
+      "inLanguage": "de-DE",
+      "copyrightYear": "2025",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://www.codekontrolle.de/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <!-- ===================== JSON-LD: LocalBusiness (Local SEO) ===================== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "CodeKontrolle",
+      "description": "Unabhängige Software-Architektur Reviews und IT-Bewertung für deutsche Unternehmen. Professionelle Analyse in 10 Tagen.",
+      "url": "https://www.codekontrolle.de",
+      "telephone": "+49 175 403 8577",
+      "email": "kontakt@codekontrolle.de",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DE",
+        "addressLocality": "Deutschland"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "51.1657",
+        "longitude": "10.4515"
+      },
+      "areaServed": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "serviceArea": [
+        {
+          "@type": "Country",
+          "name": "Germany"
+        }
+      ],
+      "priceRange": "€€-€€€",
+      "paymentAccepted": ["Invoice", "Bank Transfer"],
+      "currenciesAccepted": "EUR",
+      "openingHours": "Mo-Fr 09:00-17:00",
+      "sameAs": [
+        "https://www.codekontrolle.de"
+      ]
+    }
+    </script>
+
+    <!-- ===================== JSON-LD: Service (Software Audit Services) ===================== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Software-Architektur Review",
+      "description": "Professionelle Bewertung Ihrer Software-Architektur, Code-Qualität und technischen Schulden. Vollständige Analyse in 10 Tagen nach Bereitstellung aller erforderlichen Informationen.",
+      "provider": {
+        "@type": "Organization",
+        "name": "CodeKontrolle",
+        "url": "https://www.codekontrolle.de",
+        "telephone": "+49 175 403 8577",
+        "email": "kontakt@codekontrolle.de"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Germany"
+      },
+      "availableChannel": {
+        "@type": "ServiceChannel",
+        "serviceUrl": "https://www.codekontrolle.de",
+        "serviceSmsNumber": "+49 175 403 8577",
+        "servicePhone": "+49 175 403 8577"
+      },
+      "serviceType": "IT Consulting",
+      "category": [
+        "Software Architecture Review",
+        "Code Quality Assessment", 
+        "Technical Debt Analysis",
+        "IT System Evaluation"
+      ],
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Kleines Software-Audit",
+          "description": "Einzelnes System prüfen (z.B. CRM, ERP oder Web-App)",
+          "price": "2000",
+          "priceCurrency": "EUR",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "2000",
+            "priceCurrency": "EUR",
+            "valueAddedTaxIncluded": "false"
+          },
+          "eligibleDuration": {
+            "@type": "QuantitativeValue",
+            "value": "5",
+            "unitText": "Werktage"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Mittleres Software-Audit",
+          "description": "Mehrere Systeme + Schnittstellen + Code-Qualität",
+          "price": "3000",
+          "priceCurrency": "EUR",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "minPrice": "3000",
+            "maxPrice": "5000",
+            "priceCurrency": "EUR",
+            "valueAddedTaxIncluded": "false"
+          },
+          "eligibleDuration": {
+            "@type": "QuantitativeValue",
+            "value": "10",
+            "unitText": "Werktage"
+          }
+        },
+        {
+          "@type": "Offer",
+          "name": "Komplexes Software-Audit",
+          "description": "Große IT-Landschaft mit mehreren Anwendungen, Datenbanken und Integrationen",
+          "price": "10000",
+          "priceCurrency": "EUR",
+          "priceSpecification": {
+            "@type": "PriceSpecification",
+            "price": "10000",
+            "priceCurrency": "EUR",
+            "valueAddedTaxIncluded": "false"
+          },
+          "eligibleDuration": {
+            "@type": "QuantitativeValue",
+            "value": "15",
+            "unitText": "Werktage"
+          }
+        }
+      ],
+      "termsOfService": "https://www.codekontrolle.de/terms",
+      "hoursAvailable": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday", 
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "17:00"
+      }
+    }
+    </script>
+
+    <!-- ===================== JSON-LD: ProfessionalService (Specialized IT Service) ===================== -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "CodeKontrolle - Software-Architektur Beratung",
+      "description": "Spezialisierte IT-Beratung für Software-Architektur Reviews, Code-Qualität und technische Schulden-Bewertung. Unabhängige Expertise für deutsche Unternehmen.",
+      "url": "https://www.codekontrolle.de",
+      "telephone": "+49 175 403 8577",
+      "email": "kontakt@codekontrolle.de",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DE"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Germany"  
+      },
+      "serviceArea": {
+        "@type": "Country",
+        "name": "Germany"
+      },
+      "priceRange": "€€-€€€",
+      "paymentAccepted": ["Invoice", "Bank Transfer"],
+      "currenciesAccepted": "EUR",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Software-Audit Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Software-Architektur Review",
+              "description": "Vollständige Bewertung Ihrer Software-Architektur"
+            }
+          },
+          {
+            "@type": "Offer", 
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Code-Qualität Assessment",
+              "description": "Detaillierte Analyse der Code-Qualität und Wartbarkeit"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service", 
+              "name": "Technische Schulden Analyse",
+              "description": "Bewertung und Priorisierung technischer Schulden"
+            }
+          }
+        ]
+      },
+      "knowsAbout": [
+        "Software Architecture",
+        "Code Quality",
+        "Technical Debt",
+        "System Integration",
+        "Performance Analysis", 
+        "Security Assessment"
+      ]
+    }
+    </script>
     
 </body>
 </html>
