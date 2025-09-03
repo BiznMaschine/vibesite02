@@ -152,7 +152,7 @@ strong {
 
 .btn-primary {
     background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 50%, #1e40af 100%);
-    color: white;
+    color: white !important;
     box-shadow: 
         0 8px 32px rgba(59, 130, 246, 0.4),
         0 4px 16px rgba(0, 0, 0, 0.1);
@@ -171,6 +171,7 @@ strong {
 
 .btn-primary:hover {
     background: linear-gradient(135deg, #2563eb 0%, #1e3a8a 50%, #1e3a8a 100%);
+    color: white !important;
     transform: translateY(-3px) scale(1.02);
     box-shadow: 
         0 16px 48px rgba(59, 130, 246, 0.5),
@@ -1642,6 +1643,7 @@ html {
 
 .content-section h2 {
     color: #1e293b;
+    margin-top: 1rem;
     margin-bottom: 1.5rem;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid #e2e8f0;
